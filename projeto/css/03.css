@@ -1,0 +1,134 @@
+.msg_entrada{
+	width: 500px;
+	height: 500px;
+	text-align: center;
+}
+#textarea_msg{
+	border-radius: 6px;
+	box-shadow: inset 2px 4px 6px #D8D8D8;
+	border: 1px solid #bebebe;
+	font-family: arial;
+}
+.galeria{
+	border: 1px solid #fff;
+	width: 500px;
+	height: 275px;
+	position: absolute;
+	top: 25px;
+	left: 250px;
+}
+.img_galeria_off, .img_galeria_on{
+	height: 275px;
+	width: 500px;
+	position: absolute;
+	left: 0px;
+}
+.img_galeria_on{
+	opacity: 1;
+}
+.img_galeria_off{
+	opacity: 0;
+}
+.barra img{
+	height: 20px;
+}
+.gerenciar_equipe{
+	top: 70px;
+	position: absolute;
+	widht: 500;
+	left: 50%;
+	margin-left: -250px;
+}
+.gerenciar_equipe a{
+	background-color:  #296932;
+	color: #fff;
+	text-decoration: none;
+	padding: 15px 22px;
+	box-shadow: inset 4px 7px 11px #34853F;
+}
+#icone_atualizar{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	cursor: pointer;
+}
+.form_adicao a{
+	margin-top: 3px;
+	color: #2E7837;
+	font-family: verdana;
+	text-shadow: 1px 2px 4px #fff;
+	font-size: 95%;
+}
+#iframe_index{
+	width: 1000px;
+	height: 500px;
+	margin-top: 0px;
+}
+.table_chamadas{
+	color: #2E7837;
+}
+.chamadas table{
+	font-family: verdana;
+	margin-left: 20px;
+	margin-top: -55px;
+}
+#h2_title{
+	color: #fff;
+	text-shadow: 1px 2px 4px #000;
+}
+.td_data, .td_info{
+	border-radius: 2px;
+	padding: 3;
+}
+.td_info{
+	color:#fff;
+	background-color: #397548;
+	cursor: pointer;
+}
+#tipo_prob{
+	width: 500px;
+}
+.td_data{
+	background-color: #469159;
+}
+.td_info:hover{
+	background-color: #244D2F;
+}
+.chamadas table b{
+	background-color: #7DC269;
+	padding: 4px;
+	border: 1px solid #7dc269;
+	box-shadow: inset 0px 8px 25px #96CE86;
+	border-radius: 2px; 
+}
+.perfil a{
+	text-decoration: none;
+	font-family: verdana;
+	margin-top: 5px;
+	color: #fff;
+	background-color: #2F643E;
+	padding: 8px;
+	border-radius: 4px;
+	margin-left: 2px;
+}
+.perfil a:hover{
+	color: #ffff00;
+	background-color: #418955;
+}
+.perfil p{
+	color: #275233;
+}
+span{
+	color: #fff;
+	text-shadow: 2px 3px 10px #275233;
+}
+span:hover{
+	color: #275233;
+}
+.form_info_problema td{
+	text-align: left;
+}
+#h3resp{
+	color: #fff;
+	font-family: verdana;
+}

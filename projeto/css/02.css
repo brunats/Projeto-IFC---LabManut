@@ -1,0 +1,356 @@
+.geral_painel{
+	position: absolute;
+	height: 500px;
+	width: 1000px;
+	left: 50%;
+	margin-left: -500px;
+	top: 0px;
+	color: #000;
+}
+.menu_painel{
+	background-color: #2E7837;
+	width: 100%;
+	height: 55px;
+	z-index: 999;
+}
+.botao_menu{
+	background-color: #1E4D24;
+	box-shadow: inset 0px 8px 10px #245E2C;
+	border: 1px solid #1E4D24;
+	position: relative;
+	top: 15px;
+	padding:7px 10px;
+	color: #fff;
+	text-decoration: none;
+	margin-left: -3px;
+	font-size: 92%;
+}
+#logout{
+	background-color: #B90000;
+	box-shadow: inset 0px 8px 10px #ff0000;
+}
+.botao_menu img{
+	padding: 1px;
+	height: 13px;
+	margin-right: 3px;
+	margin-bottom: -1px;
+}
+.botao_menu:hover{
+	background-color: #245E2C;
+	box-shadow: inset 0px 8px 10px #1E4D24;
+	color: #ffff00;
+}
+#aviso{
+	padding: 5px 15px;
+	background-color: #DFDFDF;
+	font-family: arial;
+	border: 1px solid #DFDFDF;
+	box-shadow: inset 0px 4px 7px #fff;
+	color: #3F3F3F;
+	margin-top: 100px;
+	border-radius: 8px;
+}
+.link_simples_2{
+	font-family: verdana;
+	color: #ff0000;
+	border: 1px solid #ff0000;
+	padding: 5px 10px;
+}
+.link_simples_2:hover{
+	background-color: #fff;
+}
+.lista_solicitacoes{
+	text-align: left;
+	color: #fff;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+#link_solicitacao{
+	font-family: verdana;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 3px;
+	padding: 1px 2px;
+}
+#link_solicitacao:hover{
+	color: #ffff00;
+}
+.geral_painel table{
+	text-align: left;
+	margin-left: 330px;
+	margin-top: 20px;
+	background-color: #fff;
+	color: #2F7738;
+	border: 1px solid #bebebe;
+	padding: 20px;
+	box-shadow: 2px 3px 5px #707070;
+}
+.geral_painel table td{
+	padding: 5px;
+	
+}
+.geral_painel table td:hover{
+	cursor: pointer;
+	background-color: #3FA04B;
+	color: #fff;
+}
+.solicitacoes{
+	background-color: #34853F;
+	color: #fff;
+	margin-top: 3px;
+	padding: 3px;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+.solicitacoes b{
+	color: #46B554;
+	padding: 4px;
+	background-color: #1E4D24;
+	font-size: 80%;
+}
+.solicitacoes:hover{
+	background-color: #27652F;
+}
+#sim, #nao{
+	color: #fff;
+	padding: 5px 15px;
+	box-shadow: 1px 2px 4px #616161;
+	border-radius: 2px;
+}
+#sim{
+	background-color: #2F7738;
+	box-shadow: inset 0px 7px 10px #46B554;
+}
+#nao {
+	background-color: #ff0000;
+	box-shadow: inset 0px 7px 10px #FF8282;
+}
+#h4_solici{
+	margin-top: -20px;
+	color: #fff;
+	padding: 5px;
+	box-shadow: inset 0px 8px 15px #2F7738;
+	border: 1px solid #255C2D;
+	background-color: #255C2D;
+}
+#num_solici{
+	background-color: #ff0000;
+	padding: 1px 2px;
+	font-size: 95%;
+	border-radius: 2px;
+}
+.frame_restrito{
+	width: 1000px;
+	height: auto;
+        
+}
+#form_pesquisa_usu{
+	margin-top: 25px;
+}
+#a_click{
+	color: #2F7738;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#fecha_usu{
+	color: #ff0000;
+	font-size: 88%;
+	cursor:pointer;
+}
+.resultados_pesq{
+	background-color: #2F7738;
+	padding: 2px 12px;
+	border-radius: 3px;
+	color: #fff;
+	width: 400px;
+	
+}
+.org_busca{
+	position: relative;
+	text-align: left;
+	margin-left: -50px;
+}
+.org_busca td{
+	background-color: #3F9E4A;
+	box-shadow: inset 4px 5px 8px #2F7738;
+	padding: 5px;
+}
+.resultados_pesq b{
+	font-size: 105%;
+}
+.geral_painel{
+	position: absolute;
+	height: 500px;
+	width: 1000px;
+	left: 50%;
+	margin-left: -500px;
+	top: 0px;
+	color: #000;
+}
+.menu_painel{
+	background-color: #2E7837;
+	width: 100%;
+	height: 55px;
+}
+.botao_menu{
+	background-color: #1E4D24;
+	box-shadow: inset 0px 8px 10px #245E2C;
+	border: 1px solid #1E4D24;
+	position: relative;
+	top: 15px;
+	padding:7px 10px;
+	color: #fff;
+	text-decoration: none;
+	margin-left: -3px;
+	font-size: 92%;
+}
+.botao_menu img{
+	padding: 1px;
+	height: 13px;
+	margin-right: 3px;
+	margin-bottom: -1px;
+}
+.botao_menu:hover{
+	background-color: #245E2C;
+	box-shadow: inset 0px 8px 10px #1E4D24;
+	color: #ffff00;
+}
+#aviso{
+	padding: 5px 15px;
+	background-color: #DFDFDF;
+	font-family: arial;
+	border: 1px solid #DFDFDF;
+	box-shadow: inset 0px 4px 7px #fff;
+	color: #3F3F3F;
+	margin-top: 100px;
+	border-radius: 8px;
+}
+.link_simples_2{
+	font-family: verdana;
+	color: #ff0000;
+	border: 1px solid #ff0000;
+	padding: 5px 10px;
+}
+.link_simples_2:hover{
+	background-color: #fff;
+}
+.lista_solicitacoes{
+	text-align: left;
+	color: #fff;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+#link_solicitacao{
+	font-family: verdana;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 3px;
+	padding: 1px 2px;
+}
+#link_solicitacao:hover{
+	color: #ffff00;
+}
+.geral_painel table{
+	text-align: left;
+	margin-left: 330px;
+	margin-top: 20px;
+	background-color: #fff;
+	color: #2F7738;
+	border: 1px solid #bebebe;
+	padding: 20px;
+	box-shadow: 2px 3px 5px #707070;
+}
+.geral_painel table td{
+	padding: 5px;
+	
+}
+.geral_painel table td:hover{
+	cursor: pointer;
+	background-color: #3FA04B;
+	color: #fff;
+}
+.solicitacoes{
+	background-color: #34853F;
+	color: #fff;
+	margin-top: 3px;
+	padding: 3px;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+.solicitacoes b{
+	color: #46B554;
+	padding: 4px;
+	background-color: #1E4D24;
+	font-size: 80%;
+}
+.solicitacoes:hover{
+	background-color: #27652F;
+}
+#sim, #nao{
+	color: #fff;
+	padding: 5px 15px;
+	box-shadow: 1px 2px 4px #616161;
+	border-radius: 2px;
+}
+#sim{
+	background-color: #2F7738;
+	box-shadow: inset 0px 7px 10px #46B554;
+}
+#nao {
+	background-color: #ff0000;
+	box-shadow: inset 0px 7px 10px #FF8282;
+}
+#h4_solici{
+	margin-top: -20px;
+	color: #fff;
+	padding: 5px;
+	box-shadow: inset 0px 8px 15px #2F7738;
+	border: 1px solid #255C2D;
+	background-color: #255C2D;
+}
+#num_solici{
+	background-color: #ff0000;
+	padding: 1px 2px;
+	font-size: 95%;
+	border-radius: 2px;
+}
+.frame_restrito{
+	width: 1000px;
+	height: 500px;
+	margin-top: 0px;
+}
+#form_pesquisa_usu{
+	margin-top: 25px;
+}
+#a_click{
+	color: #2F7738;
+	cursor: pointer;
+	text-decoration: underline;
+}
+#fecha_usu{
+	color: #ff0000;
+	font-size: 88%;
+	cursor:pointer;
+}
+.resultados_pesq{
+	background-color: #2F7738;
+	padding: 2px 12px;
+	color: #fff;
+	width: 400px;
+}
+.org_busca{
+	position: relative;
+	text-align: left;
+	margin-left: -50px;
+}
+.org_busca td{
+	background-color: #3F9E4A;
+	padding: 5px;
+}
+.resultados_pesq b{
+	font-size: 105%;
+}
+h4{
+	color: #fff;
+}

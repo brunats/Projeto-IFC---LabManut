@@ -1,0 +1,140 @@
+body{
+	filter:progid:DXImageTransform.Microsoft.Gradient (GradientType=0, StartColorStr='#7DC269', EndColorStr='#FFFFFF');
+	background: -moz-linear-gradient(top, #7DC269, #FFFFFF) repeat-X fixed;
+	background: -webkit-gradient(linear, left top, left bottom, from(#7DC269), to(#FFFFFF)) repeat-X fixed;
+	font-family: arial, verdana;
+	color: #fff;
+	text-align: center;
+}
+h3{
+	color: #fff;
+}
+.geral{
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	width: 700px;
+	margin-left: -350px;
+	background-color: #fff;
+	border-radius: 5px;
+	height: auto;
+	box-shadow: 1px 2px 3px #bebebe;
+
+}
+.area_login{
+	width: 100%;
+	height: 80px;
+	background-color:#2E7837;
+}
+.area_login_info{
+	position: absolute;
+	right: 10px;
+	top: 3px;
+	font-size: 90%;
+	color: #83CF8C; 
+}
+.area_login_info a{
+	color: #fff;
+	text-decoration: none;
+}
+.area_login_info a:hover{
+	text-decoration: underline;
+}
+.form_login{
+	color: #fff;
+	font-size: 90%;
+	text-align: right;
+	margin-right: 10px;
+}
+.form_campos_login{
+	margin-top: 45px;
+	border: 1px solid #fff;
+	box-shadow: inset 2px 4px 8px #E4E4E4;
+}
+.submit_login{
+	cursor: pointer;
+	padding: 2.5px 12px;
+	color: #fff;
+	background-color:#1D371A;
+	border: 1px solid #1D371A;
+	box-shadow: inset 1px 2px 4px #2E7837;
+}
+.submit_login:hover{
+	color: #ffff00; 
+}
+.rodape{
+	position: fixed;
+	bottom: 0px;
+	background-color: #fff;
+	width: 30%;
+	left: 35%;
+	text-align: center;
+	padding: 10px 3px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	color: #458547;
+}
+.rodape a{
+	color: #458547;
+	cursor: pointer;
+	text-decoration: none;
+}
+.rodape a:hover{
+	text-decoration: underline;
+}
+.link_simples{
+	color: #2E7837;
+	text-decoration: none;
+	font-size: 90%;
+	position: absolute;
+	right: 10px;
+}
+.link_simples:hover{
+	text-decoration: underline;
+}
+.form_solicita_cad{
+	margin-left: 80px;
+}
+.form_solicita_cad h2, .form_solicita_cad h6, .h2_edited{
+	color: #2E7837;
+}
+.campo_cad{
+	border: 1px solid #E0E0E0;
+	box-shadow: inset 2px 3px 4px #E0E0E0;
+	height: 26px;
+	width: 170px;
+	border-radius: 5px;
+	font-family: verdana;
+}
+.form_solicita_cad form td{
+	text-align: right;
+	color: #2E7837;
+}
+.form_solicita_cad form select{
+	width: 170px;
+	height: 30px;
+	background-color: #2E7837;
+	color: #fff;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.submit_cad{
+	background-color: #1B4720;
+	color: #fff;
+	border: 1px solid #1B4720;
+	padding: 9px 15px;
+	cursor: pointer;
+	border-radius: 5px;
+	text-decoration: none;
+}
+.submit_cad:hover{
+	background-color: #2E7837;
+}
+.form_login_restrito{
+	text-align: center;
+	position: absolute;
+	width: 500px;
+	left: 50%;
+	margin-left: -250px;
+	color: #fff;
+}
